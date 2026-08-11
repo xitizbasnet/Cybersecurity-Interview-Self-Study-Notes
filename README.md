@@ -1,4 +1,4 @@
-# Cybersecurity-Interview-Self-Study-Notes
+# Cybersecurity Interview Self Study Notes
 
 ## Overview
 
@@ -11,50 +11,41 @@ A collection of cybersecurity interview questions and answers covering cybersecu
 Cybersecurity is the practice of protecting systems, networks, and data from unauthorized
 access, attacks, or damage. It involves using technologies, processes, and best practices to
 defend digital assets from cyber threats.
+
 It’s essential because today’s world is digitally connected — from banking systems to defense
 infrastructure — and every connection is a potential target.
 
 ### Q2. What is the CIA Triad? Explain with examples.
 
 The CIA Triad represents three pillars of cybersecurity:
-Confidentiality – Ensures data is accessed only by authorized users.Example:
+1. Confidentiality – Ensures data is accessed only by authorized users.Example:
 Encrypting sensitive data using AES.
-Integrity – Maintains data accuracy and consistency.Example: Using hashing (SHA-256)
+2. Integrity – Maintains data accuracy and consistency.Example: Using hashing (SHA-256)
 to verify file integrity.
-Availability – Ensures resources are accessible when needed.Example: Using backup
+3. Availability – Ensures resources are accessible when needed.Example: Using backup
 servers to prevent downtime.
 
-### Q3. 
+### Q3. Differentiate between a Threat, Vulnerability, and Risk.
 
-Differentiate between a Threat, Vulnerability, and Risk.
-Term
-Definition
-Example
-Threat
-Potential cause of harm
-Malware, insider attack
-Vulnerability
-Weakness exploitable by a threat
-Unpatched OS
-Risk
-Probability of loss when a threat
-exploits a vulnerability
-Ransomware attack on outdated systems
+S.N. Term -> Definition -> Example
+1. Threat -> Potential cause of harm -> Malware, insider attack
+2. Vulnerability -> Weakness exploitable by a threat -> Unpatched OS
+3. Risk -> Probability of loss when a threat exploits a vulnerability -> Ransomware attack on outdated systems
 
 ### Q4. What are the main types of cyber threats?
 
-Malware: Viruses, worms, Trojans
-Phishing: Social engineering to steal credentials
-DDoS: Overloading systems with traffic
-Ransomware: Encrypts files and demands ransom
-Insider Threats: Employees misusing access
-Zero-day Exploits: Attacks exploiting unknown vulnerabilities
+1. Malware: Viruses, worms, Trojans
+2. Phishing: Social engineering to steal credentials
+3. DDoS: Overloading systems with traffic
+4. Ransomware: Encrypts files and demands ransom
+5. Insider Threats: Employees misusing access
+6. Zero-day Exploits: Attacks exploiting unknown vulnerabilities
 
 ### Q5. What is the difference between Cybersecurity and Information Security?
 
-Cybersecurity deals with protecting data in the digital environment — networks,
+1. Cybersecurity deals with protecting data in the digital environment — networks,
 computers, and online systems.
-Information Security (InfoSec) covers protection of all forms of information — digital
+2. Information Security (InfoSec) covers protection of all forms of information — digital
 and physical (e.g., paper files).Example: Shredding confidential papers = InfoSec;
 encrypting emails = Cybersecurity.
 
@@ -73,9 +64,9 @@ This ensures that even if one layer fails, others still protect the system.
 
 Security controls are safeguards to reduce risks.
 Types:
-Preventive: Stop incidents (firewalls, authentication)
-Detective: Identify incidents (IDS, SIEM)
-Corrective: Recover systems (backups, patches)
+1. Preventive: Stop incidents (firewalls, authentication)
+2. Detective: Identify incidents (IDS, SIEM)
+3. Corrective: Recover systems (backups, patches)
 
 ### Q8. What is Risk Assessment in Cybersecurity?
 
@@ -99,17 +90,19 @@ Formula: Risk = Threat × Vulnerability × Impact
 ### Q10. What is the Principle of Least Privilege (PoLP)?
 
 It means giving users only the minimum access needed for their job.
+
 For example, an HR employee doesn’t need access to the finance database.
+
 This minimizes damage in case of account compromise.
 
 ### Q11. What is the difference between a Virus, Worm, and Trojan Horse?
 
 All three are types of malware, but they differ in how they spread and function.
-A virus is malicious code that attaches itself to legitimate files and requires user action (like
+1. A virus is malicious code that attaches itself to legitimate files and requires user action (like
 running an infected file) to spread.
-A worm, on the other hand, can replicate and spread automatically across networks without
+2. A worm, on the other hand, can replicate and spread automatically across networks without
 user intervention — making it more dangerous in large systems.
-A Trojan Horse disguises itself as a harmless or useful program, but once installed, it
+3. A Trojan Horse disguises itself as a harmless or useful program, but once installed, it
 provides unauthorized access or causes harm secretly.
 For instance, a fake “free antivirus” installer that actually steals credentials is a Trojan.
 
@@ -119,8 +112,10 @@ Attackers have various motivations depending on their background and intent.
 Some hack for financial gain (e.g., ransomware, banking Trojans), others for espionage or
 intelligence gathering (state-sponsored attacks), and some for ideological reasons
 (hacktivism).
+
 A few do it for personal challenge or notoriety, while insiders might act out of revenge or
 greed.
+
 Ultimately, every cyberattack aims to either steal, damage, disrupt, or exploit systems and
 data.
 
@@ -144,28 +139,34 @@ Understanding this helps defenders stop attacks at early stages.
 Attack vectors are the methods or paths used by attackers to access a system.
 Common ones include phishing emails, malicious downloads, infected USB devices,
 compromised websites, and unpatched vulnerabilities.
+
 Others include social engineering, where attackers manipulate users into revealing
 credentials, and brute-force attacks, where hackers try multiple password combinations to
 gain entry.
+
 Knowing these helps security teams strengthen their defenses.
 
 ### Q15. Explain the concept of “Zero-Day Vulnerability.”
 
 A Zero-Day Vulnerability is a flaw in software that is unknown to the vendor and has no
 patch available.
+
 Since it’s unpatched, attackers can exploit it immediately — hence the term “zero-day,”
 meaning zero days of protection.
 
 These vulnerabilities are highly valuable in the black market and are often used in targeted or
 nation-state attacks.
+
 Once discovered, vendors rush to release a patch before widespread exploitation occurs.
 
 ### Q16. What is the difference between Active and Passive attacks?
 
 In an active attack, the attacker directly interacts with the target system to alter or damage its
 resources — for example, modifying data packets or launching a DDoS attack.
+
 In a passive attack, the attacker only observes or monitors communication without
 interfering — such as eavesdropping or traffic analysis.
+
 While passive attacks are stealthy and difficult to detect, active attacks cause immediate
 impact and are easier to notice.
 
@@ -173,26 +174,31 @@ impact and are easier to notice.
 
 Social Engineering is the art of manipulating people into performing actions or revealing
 confidential information.
+
 Instead of exploiting a technical vulnerability, attackers exploit human psychology —
 curiosity, fear, trust, or urgency.
+
 Examples include phishing emails pretending to be from trusted sources, baiting with infected
 USB drives, or pretexting as IT support to get passwords.
+
 Training users to recognize such tactics is crucial to organizational security.
 
 ### Q18. What are Security Frameworks, and why are they important?
 
 Security frameworks are structured sets of guidelines and best practices for implementing and
 managing cybersecurity.
+
 They provide consistency, help meet compliance requirements, and ensure a systematic
 defense approach.
+
 Some widely used frameworks include:
 
-NIST Cybersecurity Framework (CSF): Focuses on Identify, Protect, Detect, Respond,
+1. NIST Cybersecurity Framework (CSF): Focuses on Identify, Protect, Detect, Respond,
 and Recover functions.
-ISO 27001: International standard for Information Security Management Systems
+2. ISO 27001: International standard for Information Security Management Systems
 (ISMS).
-CIS Controls: Practical, prioritized security best practices.
-COBIT and PCI DSS: Used in governance and payment security respectively.
+3. CIS Controls: Practical, prioritized security best practices.
+4. COBIT and PCI DSS: Used in governance and payment security respectively.
 Following these frameworks ensures security isn’t random but risk-based and
 standardized.
 
